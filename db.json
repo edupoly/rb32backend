@@ -1,10 +1,51 @@
 {
+    "users": [
+      {
+        "username": "admin",
+        "password": 123,
+        "id": 1
+      },
+      {
+        "username": "praveen",
+        "password": "123",
+        "id": 2
+      },
+      {
+        "username": "praveen",
+        "password": "123",
+        "id": 3
+      }
+    ],
     "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
+      {
+        "views": 4949,
+        "id": "1",
+        "title": "redux toolkit is great"
+      },
+      {
+        "id": "c65f",
+        "views": 10984839,
+        "title": "React best training in Hyderabad"
+      },
+      {
+        "id": "d340",
+        "views": "43747",
+        "title": "React works on Mobile with React Native"
+      }
     ],
     "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
+      {
+        "id": "1",
+        "text": "a comment about post 1",
+        "postId": "1"
+      },
+      {
+        "id": "2",
+        "text": "another comment about post 1",
+        "postId": "1"
+      }
     ],
-    "profile": { "name": "typicode" }
+    "profile": {
+      "name": "typicode"
+    }
   }
-  
